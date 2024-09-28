@@ -1,6 +1,6 @@
 const JavaScriptObfuscator = require("javascript-obfuscator");
 const {
-  adams
+  zokou
 } = require("../framework/zokou");
 zokou({
   'nomCom': "obt",
