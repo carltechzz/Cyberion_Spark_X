@@ -51,11 +51,11 @@ zokou({ nomCom: "user", categorie: "General", reaction: "🏷" }, async (dest, z
   }
 });
 
-zokou({ nomCom: "sos", categorie: "General", reaction: "🆘" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "developer", categorie: "General", reaction: "🆘" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "CARL WILLIAM", numero: "254740271632" },
+      { nom: "CARL WILLIAM", numero: "254770954948" },
       { nom: "᚛CARL WILLIAM᚜", numero: "254740271632" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
@@ -91,7 +91,7 @@ else {
 }
 });
 
-zokou({ nomCom: "owner", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "admin", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("Hello..wanna contact my handsome developer ")
