@@ -34,7 +34,7 @@
 
 
 
-const a41_0x46f0da = function () {
+/*const a41_0x46f0da = function () {
   let _0x403289 = true;
   return function (_0x2304bd, _0x7cc03b) {
     const _0x5194fb = _0x403289 ? function () {
@@ -115,4 +115,4 @@ a41_0x8d2a1b(a41_0x27b897, async (_0x1c336a, _0x39b697, _0xf20a9d) => {
     "quoted": _0x5d20dd
   };
   _0x39b697.sendMessage(_0x1c336a, mess, _0x3f344e);
-});
+});*/
