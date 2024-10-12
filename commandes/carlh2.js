@@ -23,12 +23,12 @@ zokou({ nomCom: "carlinfo", reaction: "🕵", categorie: "User" }, async (dest, 
 
     if (result && result.code) {
       const getsess = result.code;
-     /* const answer = `*Here is your code =* *${getsess}*\n\n BMW MD`;*/
+     /* const answer = `*Here is your code =* *${getsess}*\n\n Cyberion-Spark-X`;*/
        const answer = `
 ❂─────═━┈┈━═──━┈⦾
 ➻ BOT: *CYBERION-SPARK-X*
 ➻ SERIES: *SPARK*
-➻ CODE: *${getsess}*
+➻ BOT ID: *${getsess}*
 ➻ DEV: *CARLTECH*
 ❂─────═━┈┈━═──━┈⦾`;
 
