@@ -7,8 +7,8 @@ const {
 } = require("axios");
 zokou({
   'nomCom': "bot",
-  'reaction': '📡',
-  'categorie': 'IA'
+  'reaction': "📡",
+  'categorie': "IA"
 }, async (_0x15f1ce, _0x3e5ed3, _0x4e5276) => {
   const {
     repondre: _0x25d99a,
@@ -43,9 +43,9 @@ zokou({
   }
 });
 zokou({
-  'nomCom': 'ai',
-  'reaction': '📡',
-  'categorie': 'IA'
+  'nomCom': "ai",
+  'reaction': "📡",
+  'categorie': "IA"
 }, async (_0x396233, _0x253bed, _0x3e9128) => {
   const {
     repondre: _0x31afcb,
@@ -79,8 +79,8 @@ zokou({
 });
 zokou({
   'nomCom': "gpt1",
-  'reaction': '📡',
-  'categorie': 'IA'
+  'reaction': "📡",
+  'categorie': "IA"
 }, async (_0x1d5414, _0x2710c0, _0x3f6fb4) => {
   const {
     repondre: _0x2bf0bb,
@@ -106,8 +106,8 @@ zokou({
 });
 zokou({
   'nomCom': "gpt",
-  'reaction': '🤔',
-  'categorie': 'IA'
+  'reaction': "🤔",
+  'categorie': "IA"
 }, async (_0x1c8da0, _0x81d692, _0x3b0c91) => {
   const {
     repondre: _0xdd8c7,
