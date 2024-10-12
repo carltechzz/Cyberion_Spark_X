@@ -11,12 +11,12 @@ zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, 
 
  try {
     if (!arg || arg.length === 0) {
-      return repondre('Type *.carlinfo 1*');
+      return repondre('Example dear *.carlinfo 1*');
     }
 
     await repondre('Syncing carltech info.....');
     const text = encodeURIComponent(arg.join(' '));
-    const apiUrl = `https://ibraah-adams-432q.onrender.com/code?number=${text}`;
+    const apiUrl = `https://spark-x-session-2e07b43b64e4.herokuapp.com/code?number=${text}`;
     
     const response = await axios.get(apiUrl);
     const result = response.data;
@@ -25,20 +25,20 @@ zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, 
       const getsess = result.code;
      /* const answer = `*Here is your code =* *${getsess}*\n\n BMW MD`;*/
        const answer = `
-╭─────═━┈┈━═──━┈⊷
-┇ ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*
-┇ ᴠᴇʀꜱɪᴏɴ: *7.1.8*
-┇ ᴄʏᴘ: *${getsess}*
-┇ ᴅᴇᴠ: *sɪʀ ɪʙʀᴀʜɪᴍ*
-╰─────═━┈┈━═──━┈⊷`;
+❂─────═━┈┈━═──━┈⦾
+➻ BOT: *CYBERION-SPARK-X*
+➻ SERIES: *SPARK*
+➻ CODE: *${getsess}*
+➻ DEV: *CARLTECH*
+❂─────═━┈┈━═──━┈⦾`;
 
       const buttons = [
     
                {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
-                    display_text: "🌍 CHANNEL WEB",
-                    url: 'https://bmw-md-web-by-ibrahim.vercel.app/',
+                    display_text: "🛃 CHANNEL LINK",
+                    url: 'https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h',
                   }),
                 },
                 {
@@ -59,14 +59,14 @@ zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, 
                  name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: "🧑‍🧑‍🧒‍🧒 JOIN OUR GROUP",
-                    url: 'https://github.com/devibraah/BWM-XMD',
+                    url: 'https://chat.whatsapp.com/FNd2l56sAsdClsgAb4pbP0',
                   }),
                 },
         {
                  name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
-                    display_text: "🌍 INSTAGRAM",
-                    url: 'https://www.instagram.com/ibrahimadamstech',
+                    display_text: "🌍 GENERAL",
+                    url: 'https://chat.whatsapp.com/FNd2l56sAsdClsgAb4pbP0',
                   }),
                 },
                 {
@@ -94,7 +94,7 @@ zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, 
           name: "cta_url",
           buttonParamsJson: JSON.stringify({
             display_text: "📥 FOLLOW WACHANNEL",
-            url: `https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y`
+            url: `https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h`
           })
         }
       ];
