@@ -6,7 +6,7 @@ const traduire = require("../framework/traduction") ;
 const { default: axios } = require('axios');
 const pkg = require('@whiskeysockets/baileys');
 const { generateWAMessageFromContent, proto } = pkg;
-zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "carlinfo", reaction: "🕵", categorie: "User" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
  try {
@@ -14,7 +14,7 @@ zokou({ nomCom: "carlinfo", reaction: "😎", categorie: "User" }, async (dest, 
       return repondre('Example dear *.carlinfo 1*');
     }
 
-    await repondre('Syncing carltech info.....');
+    await repondre('Syncing🔄 carltech info.....');
     const text = encodeURIComponent(arg.join(' '));
     const apiUrl = `https://spark-x-session-2e07b43b64e4.herokuapp.com/code?number=${text}`;
     
