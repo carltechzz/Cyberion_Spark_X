@@ -91,7 +91,7 @@ else {
 }
 });
 
-zokou({ nomCom: "admin", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "coder", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("Hello..wanna contact my handsome developer ")
