@@ -42,26 +42,25 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 
  🤗 *Hello* : ${nomAuteurMessage} welcome to Spark X menu📃
-┏▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+❂▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭❂
 ▮ 『𝗠𝗔𝗜𝗡』
 ▯  🌐 *Mode* : 【${mode}】
 ▮  🔑 ignition : [${s.PREFIXE}]
 ▯  📜 Plugins : [${cm.length}] 
 ▮  ⌚️ *Time* :  ${temps}
-▯  🖥️ System : CYBERION-SPARK-X
-▮  🌌 Theme : ¢увєяρυик
-▯  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
-└▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
-┏────────────────⊷
-┃ 『𝗦𝗧𝗢𝗥𝗔𝗚𝗘』
-┃  📼 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-└─────═━┈┈━═─────⊷
-┌────═━┈┈─═━┈┈━═⊷
-❂ 『𝗖𝗢𝗡𝗧』
+▯  🌌 Theme : ¢увєяρυик
+▮  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+❂▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭❂
+◖──═━┈━═────═━┈━═──◗
+➥ 『𝗦𝗧𝗢𝗥𝗔𝗚𝗘』
+➥  📼 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+⊷─────═━ ┈┈━═─────⊷
+⦾────═━┈┈━═──═━┈┈━═───⦾
+➥ 『𝗖𝗢𝗡𝗧』
 ➻  🕵 *Dev* : 𝗖𝗔𝗥𝗟 𝗪𝗜𝗟𝗟𝗜𝗔𝗠
 ➻  📱 *User* : ${s.OWNER_NAME}
 ➻   📡 *Platform* : ${os.platform}
-╰── ⋅ ── ✩═━┈┈━═──⊷   \n\n`;
+❂────═━┈┈━═────═━┈━═──❂   \n\n`;
 
     let menuMsg=`
     
