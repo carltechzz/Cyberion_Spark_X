@@ -33,7 +33,7 @@ zokou({
           'image': {
             'url': _0xe153c7[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n CarlTech"
+          'caption': "YOUTUBE SEARCH\n\n ©CarlTech"
         };
         await _0x442076.sendMessage(_0x2cd8f2, _0x1ca214, {
           'quoted': _0x474b3a
@@ -87,7 +87,7 @@ zokou({
           'image': {
             'url': _0x2332e5[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n  CarlTech"
+          'caption': "YOUTUBE SEARCH\n\n  ©CarlTech"
         };
         await _0x30afe6.sendMessage(_0x274eba, _0x40705b, {
           'quoted': _0x2dd537
@@ -141,7 +141,7 @@ zokou({
           'image': {
             'url': _0x277e5c[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n  CarlTech"
+          'caption': "YOUTUBE SEARCH\n\n  ©CarlTech"
         };
         await _0xba5c2d.sendMessage(_0x5332a2, _0x773181, {
           'quoted': _0x38cbc2
