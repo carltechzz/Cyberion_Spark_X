@@ -33,7 +33,7 @@ zokou({
           'image': {
             'url': _0xe153c7[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n > CYBERION-SPARK-X MEDIA"
+          'caption': "YOUTUBE SEARCH\n\n CarlTech"
         };
         await _0x442076.sendMessage(_0x2cd8f2, _0x1ca214, {
           'quoted': _0x474b3a
@@ -46,7 +46,7 @@ zokou({
         }, {
           'quoted': _0x474b3a
         });
-        _0x5bc441("Downloded Successfully ✅");
+        _0x5bc441("Successfully downloaded🎧");
       } else {
         _0x5bc441("Searching...⏳");
       }
@@ -87,7 +87,7 @@ zokou({
           'image': {
             'url': _0x2332e5[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n > CYBERION-SPARK-X MEDIA"
+          'caption': "YOUTUBE SEARCH\n\n  CarlTech"
         };
         await _0x30afe6.sendMessage(_0x274eba, _0x40705b, {
           'quoted': _0x2dd537
@@ -100,7 +100,7 @@ zokou({
         }, {
           'quoted': _0x2dd537
         });
-        _0x22d0b5("*Downloded Successfully ✅*");
+        _0x22d0b5("*Downloded Successfully 🎧*");
       } else {
         _0x22d0b5("Failed to download audio. Please try again later.");
       }
@@ -141,7 +141,7 @@ zokou({
           'image': {
             'url': _0x277e5c[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n > CYBERION-SPARK-X MEDIA"
+          'caption': "YOUTUBE SEARCH\n\n  CarlTech"
         };
         await _0xba5c2d.sendMessage(_0x5332a2, _0x773181, {
           'quoted': _0x38cbc2
@@ -154,7 +154,7 @@ zokou({
         }, {
           'quoted': _0x38cbc2
         });
-        _0x5172bb("*Downloded Successfully ✅*");
+        _0x5172bb("*Downloded Successfully 🎧*");
       } else {
         _0x5172bb("Failed to download audio. Please try again later.");
       }
