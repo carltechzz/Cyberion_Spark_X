@@ -59,8 +59,8 @@ zokou({
       }, {
         'name': "cta_url",
         'buttonParamsJson': JSON.stringify({
-          'display_text': "🌍 GENERAL",
-          'url': "https://chat.whatsapp.com/FNd2l56sAsdClsgAb4pbP0"
+          'display_text': "🌍 TELEGRAM CHANNEL",
+          'url': "https://t.me/carltechai"
         })
       }, {
         'name': "cta_url",
