@@ -33,7 +33,7 @@ zokou({
           'image': {
             'url': _0x1c10b0[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n ©CarlTech🕵"
+          'caption': "Cyberion-Spark-X Media💻\n\n> CARLTECH 🕵"
         };
         await _0x260475.sendMessage(_0x3be8a8, _0x4e94c5, {
           'quoted': _0xf2d568
@@ -87,7 +87,7 @@ zokou({
           'image': {
             'url': _0x436d0c[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n> CarlTech🕵"
+          'caption': "Cyberion-Spark-X Media💻\n\n> CARLTECH 🕵"
         };
         await _0x669cff.sendMessage(_0x200e3f, _0x410829, {
           'quoted': _0x30a3e6
@@ -141,7 +141,7 @@ zokou({
           'image': {
             'url': _0x24b320[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n ©CarlTech🕵"
+          'caption': "Cyberion-Spark-X Media💻\n\n> CARLTECH 🕵"
         };
         await _0x363f48.sendMessage(_0xb1d156, _0x166efb, {
           'quoted': _0x2e946f
